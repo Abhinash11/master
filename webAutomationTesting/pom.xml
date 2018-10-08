@@ -3,7 +3,8 @@
   <groupId>webAutomation</groupId>
   <artifactId>webAutomationTesting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
+
+<dependencies>
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -30,11 +31,16 @@
     <artifactId>maven-dependency-plugin</artifactId>
     <version>3.1.1</version>
 </dependency>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-chrome-driver</artifactId>
+<version>2.50.0</version>
+</dependency>
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-report-plugin</artifactId>
+      <artifactId>maven-surefire-plugin</artifactId>
       <version>2.22.0</version>
       <type>maven-plugin</type>
     </dependency>
-    </dependencies>
+ </dependencies>
 </project>

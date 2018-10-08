@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ProjectConfiguration {
 
 	public Properties domainLoader;
-	private final String propertyFilePath= "base.properties";
+	private final String propertyFilePath= "./src/test/resources/base.properties";
 	
 	public ProjectConfiguration(){
 		

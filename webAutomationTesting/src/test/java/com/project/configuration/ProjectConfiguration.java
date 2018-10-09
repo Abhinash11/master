@@ -22,6 +22,7 @@ public class ProjectConfiguration {
 				reader.close();
 			} catch (IOException e) {
 				e.printStackTrace();
+				
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

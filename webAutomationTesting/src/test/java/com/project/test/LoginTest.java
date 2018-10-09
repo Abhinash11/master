@@ -15,7 +15,7 @@ public class LoginTest {
 	@BeforeTest
 	public void navigateToUrl(){
 		System.out.println("I am here");
-		log.info("----Before navigating to URL-----");
+		//log.info("----Before navigating to URL-----");
 		loginPage.loginURL();
 	}
 }
